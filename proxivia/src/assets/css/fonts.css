@@ -1,0 +1,16 @@
+@import url('https://fonts.googleapis.com/css2?family=Nunito+Sans&display=swap');
+@font-face {
+    font-family: 'GothamBlack';
+    font-style:  normal;
+    font-weight: 400;
+    src: url("../font-files/GothamPro-Black.woff2") format("woff2"),
+         url("../font-files/GothamPro-Black.woff") format("woff");
+}
+
+@font-face {
+    font-family: 'Gotham';
+    font-style:  normal;
+    font-weight: normal;
+    src: url("../font-files/gotham-book.woff") format("woff"),
+         url("../font-files/gotham-book.woff2") format("woff2");
+}

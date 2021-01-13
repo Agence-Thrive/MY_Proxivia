@@ -1,0 +1,113 @@
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+    font-weight: bold;
+    color: var(--color-primary);
+}
+
+::selection {
+    background-color: var(--color-secondary) !important;
+}
+
+.vs-sidebar--item a:hover {
+    opacity: 1;
+    box-shadow: none;
+    font-size: 20.1px;
+    text-decoration: none !important;
+}
+
+.label-form {
+    padding-left: 20px;
+}
+
+input:-webkit-autofill,
+input:-webkit-autofill:hover,
+input:-webkit-autofill:focus,
+textarea:-webkit-autofill,
+textarea:-webkit-autofill:hover,
+textarea:-webkit-autofill:focus,
+select:-webkit-autofill,
+select:-webkit-autofill:hover,
+select:-webkit-autofill:focus {
+    -webkit-text-fill-color: var(--color-primary) !important;
+    -webkit-box-shadow: 0 0 0px 1000px #f3f5f7 inset;
+    transition: background-color 5000s ease-in-out 0s;
+}
+
+.top-left {
+    display: flex;
+    justify-content: left;
+    margin-bottom: auto;
+}
+
+.top-center {
+    display: flex;
+    justify-content: center;
+    margin-bottom: auto;
+}
+
+.top-right {
+    display: flex;
+    justify-content: right;
+    margin-bottom: auto;
+}
+
+.center-left {
+    display: flex;
+    justify-content: left;
+    margin-top: auto;
+    margin-bottom: auto;
+}
+
+.center-center {
+    display: flex;
+    justify-content: center;
+    margin-top: auto;
+    margin-bottom: auto;
+}
+
+.center-right {
+    display: flex;
+    justify-content: right;
+    margin-top: auto;
+    margin-bottom: auto;
+}
+
+.bot-left {
+    display: flex;
+    margin-top: auto;
+    justify-content: left;
+}
+
+.bot-center {
+    display: flex;
+    margin-top: auto;
+    justify-content: center;
+}
+
+.bot-right {
+    display: flex;
+    justify-content: right;
+    margin-top: auto;
+}
+
+.no-sidep {
+    padding-right: 0;
+    padding-left: 0;
+}
+
+.no-sidep {
+    margin-right: 0;
+    margin-left: 0;
+}
+
+.login-form {
+    padding-top: 8vh;
+    padding-bottom: 10%;
+    display: flex;
+    flex-direction: column;
+    height: 100%;
+}
